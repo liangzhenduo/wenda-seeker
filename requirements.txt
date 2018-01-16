@@ -1,0 +1,3 @@
+Pillow==5.0.0
+selenium==3.8.1
+baidu-aip==2.0.0.1

@@ -1,4 +1,4 @@
-import requests, os, time
+import os, time
 from selenium import webdriver
 from PIL import Image
 from aip import AipOcr
@@ -37,8 +37,8 @@ while True:
         keyword += word['words']
     problem = keyword.split('.',1)[-1]
     print("problem=" + problem)
-    driver.get('https://www.baidu.com/s?wd='+problem)
-    #driver.get('https://www.google.com/search?q='+problem)
+    driver.get('https://www.baidu.com/s?wd=' + problem)
+    #driver.get('https://www.google.com/search?q=' + problem)
 
     end = time.time()
     print('cost=' + str(end - start) + 's\n')
