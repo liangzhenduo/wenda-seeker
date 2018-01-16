@@ -13,12 +13,9 @@ SECRET_KEY = ''
 ```
 
 ## Chrome
-下载最新的[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/)并配置路径：
-```py
-driver = webdriver.Chrome('chrome_driver_directory/chromedriver')
-```
+下载最新的[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/)并配置路径`driver_path`
 
 ## Usage
 
-    pip3 install -r requirements
+    pip3 install -r requirements.txt
     python3 seeker.py
